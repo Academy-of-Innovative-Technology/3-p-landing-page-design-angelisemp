@@ -35,3 +35,55 @@ h3 {
 p {
     font-family: "Volkhov", serif;
 }
+
+
+
+@media (min-width: 768px) {
+  body {
+    background-color: #FF6F61;
+    color: #263238;
+  }
+};
+
+  nav {
+    display: block;
+  }
+
+  .sections {
+    display: flex;
+  }
+
+   h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+    h2 {
+    text-align: center;
+  }
+
+
+
+@media (min-width: 1024px) {
+  body {
+    background-color: #009398;
+    color: #263238;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+};
