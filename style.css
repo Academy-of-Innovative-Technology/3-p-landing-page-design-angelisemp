@@ -101,3 +101,17 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 };
+
+@keyframes fish {
+  from {
+    transform: translateX(0);
+  }  
+
+  50% {
+    transform: scale(2) translateX(300px);
+  }
+
+  to {
+   transform: translateX(1000px); 
+  }
+}
