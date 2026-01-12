@@ -36,10 +36,6 @@ p {
     font-family: "Volkhov", serif;
 }
 
-.fishy {
-  display: flex;
-  align-items: center;
-}
 
 @media (min-width: 768px) {
   body {
@@ -102,7 +98,7 @@ p {
   }
 };
 
-@keyframes fish {
+@keyframes fish1 {
   from {
     transform: translateX(0);
   }  
@@ -114,4 +110,14 @@ p {
   to {
    transform: translateX(1000px); 
   }
+}
+
+.fishy {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  animation: fish1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
 }
