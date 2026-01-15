@@ -66,6 +66,11 @@ p {
  line-height: 1.6;
 }
 
+footer {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 2rem;
+}
 
 
 
