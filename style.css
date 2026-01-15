@@ -48,7 +48,7 @@ h2, h3 {
  margin: 1rem 0;
 }
 
-.jelly {
+.sub {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -81,31 +81,6 @@ header.container {
  background-color: rgba(224, 247, 250, 0.05);
  box-shadow: 0 0 20px rgba(0, 188, 212, 0.25);
 }
-
-
-
-
-nav {
- display: flex;
- justify-content: center;
- gap: 1.5rem;
- margin: 1.5rem 0;
-}
-
-
-nav a {
- color: var(--secondary);
- text-decoration: none;
- font-weight: bold;
- transition: color 0.3s ease;
-}
-
-
-nav a:hover {
- color: var(--accent);
-}
-
-
 
 
 .cta-buttons {
